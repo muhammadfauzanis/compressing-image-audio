@@ -111,7 +111,7 @@ const App = () => {
         Image and Audio Compressing
       </h1>
 
-      <div className="flex justify-between mt-10">
+      <div className="flex justify-between w-full mt-10">
         <div class="mb-8">
           <h3 class="text-xl font-semibold mb-2">Image Processing</h3>
           <input
@@ -165,7 +165,7 @@ const App = () => {
 
           <button
             class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
-            onClick={handleImageResize}
+            onClick={handleAudioCompression}
           >
             Compress Audio
           </button>
